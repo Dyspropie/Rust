@@ -2,8 +2,18 @@
 # Rust build artifacts
 target/
 
+# Compiled executables
+*.exe
+*.pdb
+*.dll
+*.so
+*.dylib
+
 # Rust-generated backup files
 **/*.rs.bk
+
+# Debug and profiling files
+*.dSYM/
 
 # OS-generated files
 .DS_Store
